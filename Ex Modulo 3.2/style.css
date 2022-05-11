@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding-top: 1rem;
+    width: 100vw;
+}
+
+.invitation {
+    padding-top: 10px;
+}
+
+.invitation {
+    text-shadow: 0 0px 5px #00b682;
+    font-size: large;
+}
+
+.line {
+    border: #ffffff solid 1px;
+    box-shadow: 0 0 5px #00b682;
+}
+
+.container {
+    padding: 10px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 10px;
+    max-width: 480px;
+}
+
+.dados {
+    border-radius: 10px;
+    padding: 10px;
+    border: rgba(165, 164, 164, 0.702) solid 1px;
+    font-size: smaller;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.dados:hover {
+    border: 1px solid #000000;
+}
+
+.dados:hover .legenda-dados {
+    color: black;
+}
+
+.legenda-dados {
+    color: rgba(165, 164, 164, 0.702);
+    font-size: small;
+}
+
+h2 {
+    text-align: center;
+}
+
+.genero-selectors {
+    display: flex;
+    gap: 5px;
+}
+
+.genero-select {
+    border: rgba(165, 164, 164, 0.702) solid 1px;
+    padding: 5px;
+}
+
+.barra {
+    width: 100%;
+    height: 25px;
+    border: #000000 solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:  rgba(128, 128, 128, 0.568);
+}
+
+.preferencias td {
+    max-height: 100%;
+    padding: 5px;
+}
+
+.range {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.range input {
+    width: 100%;
+}
+
+.comentario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-style: none;
+    padding: 10px;
+}
+
+.confirma {
+    padding: 8px;
+    background-color: #00b682;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reseta {
+    width: 74.52px;
+    padding: 8px;
+    background-color: #d0c426;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textarea>textarea {
+    width: 360px;
+    max-width: 360px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    color: gray;
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.568);
+}
