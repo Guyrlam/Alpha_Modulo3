@@ -79,6 +79,7 @@ h2 {
 .genero-select {
     border: rgba(165, 164, 164, 0.702) solid 1px;
     padding: 5px;
+    margin-top: 5px;
 }
 
 .barra {
