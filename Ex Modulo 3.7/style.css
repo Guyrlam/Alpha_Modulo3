@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Alte;
+    src: url(./assets/fonts/ttf/AlteHaasGroteskRegular.ttf);
+    font-weight: 500px;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Alte;
+    src: url(./assets/fonts/ttf/AlteHaasGroteskBold.ttf);
+    font-weight: 700px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Alte, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: hsla(158,33%,36%,0.3);
+}
+
+/*Background*/
+#background-box {
+    width: 100vw;
+    height: 100vh;
+    border: 3vh solid hsl(158,33%,36%); 
+}
+
+#plant-container {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+#plant-container img {
+    width: 80vh;
+    height: auto;
+}
+
+/*container-content*/
+#container-content {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 3vh;
+}
+
+/*Header*/
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6vh 5vh 0;
+    align-items: center;  
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    margin: 0 5vh;
+    font-size: 2.5vh;
+}
+
+header li:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+header span {
+    font-size: 7vh;
+    background-image: url(https://i.pinimg.com/originals/20/d2/c2/20d2c2c0324b62246421a76dba1d3882.gif);
+
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0);
+}
+
+/*Main*/
+#main {
+    display: flex;
+    width: 97vw;
+    height: 70vh;
+    justify-content: space-between;
+}
+
+/*text-card*/
+#text-card {
+  margin: 25vh 15vh;  
+}
+
+#text-card h1 {
+    font-size: 7vh;
+}
+
+#text-card-invite {
+    color: #126245;
+    display: flex;
+    align-items: center;
+    margin-top: 6vh;
+}
+
+#text-card-invite:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px rgb(65, 255, 109));
+}
+
+
+/*Buttom*/
+
+/*lateral-bar*/
+#lateral-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 6vw;
+    height: 70vh;   
+}
+
+#line-center {
+    display: flex;
+}
+
+#bottom-num {
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+#top-num {
+    padding-top: 2vh;
+    height: 6vh;
+    text-align: center;
+}
+
+#left-div {
+    width: 3vw;
+    height: 20vh;
+    border-right: 3px solid #12624580;
+}
+
